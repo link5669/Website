@@ -11,6 +11,12 @@ class ActionProvider {
         const greetingMessage = this.createChatBotMessage("Hello!");
         this.updateChatbotState(greetingMessage);
     }
+
+    updateChatbotState(message) {
+        this.setState(prevState => ({
+            ...prevState, messages: [...prevState.messages, message]
+        }));
+    }
 }
 
 export default ActionProvider;
