@@ -13,9 +13,19 @@ code {
 }
 
 .content {
-  background-color: #282c34;
+  background-color: cornsilk;;
 }
 
 .row {
   height: 100vh
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(82, 82, 82);
+  text-align: center;
+  padding: 0;
+  height: 100vh;
+  padding-bottom: 20vh;
 }
