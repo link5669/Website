@@ -26,6 +26,10 @@ code {
   color: rgb(82, 82, 82);
   text-align: center;
   padding: 0;
-  height: 100vh;
-  padding-bottom: 20vh;
+  height: 60vh;
+  /* padding-bottom: 20vh; */
+}
+
+marquee {
+  width:  100vw
 }

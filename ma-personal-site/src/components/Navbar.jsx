@@ -5,7 +5,7 @@ const Navbar = forwardRef((props, ref) => {
     const [visibleName, setVisibleName] = useState(false);
 
     const hideWhenVisible = { display: visibleName ? 'none' : '' }
-    const showWhenVisible = { display: visibleName ? '' : 'none' }
+    const showWhenVisible = { display: visibleName ? '' : 'none'}
 
     const nameRef = createRef();
 
@@ -15,7 +15,8 @@ const Navbar = forwardRef((props, ref) => {
 
     useImperativeHandle(ref, () => {
         return {
-            toggleVisibility
+            toggleVisibility,
+            nameRef
         }
     })
     return (
@@ -23,7 +24,7 @@ const Navbar = forwardRef((props, ref) => {
             <div style={showWhenVisible}>
                 <Name ref={nameRef}/>
             </div>
-            {props.scrollState}
+            DEBUG:{props.scrollState}
             <li className="nav-item">
                 <a className="nav-link active" href="#">Active</a>
             </li>

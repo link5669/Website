@@ -26,7 +26,7 @@ const blink = (el) => {
         'Musician'
       ];
       
-      setTimeout(m.animateIn, 200);
+      setTimeout(m.animateIn, 100);
     };
     
     m.generateRandomString = function(length){

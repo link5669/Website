@@ -9,10 +9,6 @@ const Subtitle = () => {
         messenger(document.getElementById('content'))
     }, []);
 
-    return (
-        <>
-            <p id='content'/>
-        </>
-    )
+    return (<p id='content'/>)
 }
 export default Subtitle;
