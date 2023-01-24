@@ -15,6 +15,7 @@ import TypingTransition from './components/TypingTransition';
 import musicImg from './img/mp5.png'
 import Education from './components/Education/Education';
 import WorkExperience from './components/WorkExperience/WorkExperience';
+import Projects from './components/Projects/Projects';
 
 const App = () => {
   const [scrollState, setScrollState] = useState(0);
@@ -47,8 +48,11 @@ const App = () => {
           <div style={{paddingLeft: '5vw', paddingRight: '5vw', paddingBottom:'15vh'}}>
             <Education/>
           </div>
-          <div style={{paddingLeft: '5vw', paddingRight: '5vw'}}>
+          <div style={{paddingLeft: '5vw', paddingRight: '5vw', paddingBottom:'15vh'}}>
             <WorkExperience/>
+          </div>
+          <div style={{paddingLeft: '5vw', paddingRight: '5vw', paddingBottom:'15vh'}}>
+            <Projects/>
           </div>
         </div>
         <Togglable buttonLabel={'Show'}>

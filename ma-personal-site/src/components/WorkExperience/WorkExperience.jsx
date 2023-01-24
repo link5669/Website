@@ -6,12 +6,12 @@ const WorkExperience = () => {
             <ul>
                 <li>Expected to collaborate with other developers on a full-stack application</li>
             </ul>
-            <p><b>Freelance IT Specialist</b> - Trenton, NJ, 2018-Present</p>
+            <p><b>Freelance IT Specialist</b> - Trenton, NJ, 2018 - Present</p>
             <ul>
                 <li>Deploying hardware and software solutions for indivisuals, offices, and government authorized agencies on multiple different platforms, such as the desktop and server versions of Windows, macOS and Linux</li>
                 <li>Writing software for unique use cases, including a program that increases employee productivity at the Walt Disney Company</li>
             </ul>
-            <p><b>Web Presence Manager</b> - The Music Box, 2019-2023</p>
+            <p><b>Web Presence Manager</b> - The Music Box, 2019 - 2023</p>
             <ul>
                 <li>Maintained an online marketplace via eBay, Facebook Marketplace and Reverb</li>
                 <li>Managed sales and kept track of inventory</li>
@@ -22,10 +22,14 @@ const WorkExperience = () => {
                 <li>Developed marketing content, such as emails and promotional materials for social media</li>
                 <li>Collaborated with multiple artists to create a website that is both visually appealing and functional</li>
             </ul>
-            <p><b>Administrator</b></p>
+            <p><b>Administrator</b> - Game/Music Jam, 2021 - Present</p>
             <ul>
                 <li>Attend weekly meetings to organize upcoming events and workshops</li>
                 <li>Research and contact colleges and universities to gauge potential interest in our event</li>
+            </ul>
+            <p><b>Composer's Assistant</b> - Summer 2021</p>
+            <ul>
+                <li>Worked with a Los Angeles-based composer as a transcriptionist</li>
             </ul>
         </>
     )

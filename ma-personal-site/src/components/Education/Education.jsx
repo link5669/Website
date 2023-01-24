@@ -1,7 +1,7 @@
 const Education = () => {
     return (
         <>
-            <h2>Education</h2>
+            <h1>Education</h1>
             <p>
                 <b>Rutgers University</b> - New Brunswick, NJ <i>GPA 3.6/4.0</i> 
                 <br/>
